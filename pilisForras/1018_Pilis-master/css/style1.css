@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+html{
+    font-size:16px;
+}
+body{
+    background: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background: white;
+    margin:0 auto;
+    max-width: 1000px;
+}
+.header{
+    background: url('../img/logo3.jpg') no-repeat;
+    background-size: contain;
+    height: 200px;
+    color:white;
+    background-color: white;
+    padding: 5px 0 0 200px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+.sidebar{
+    width:21%;
+    float:right;
+    background: white;
+}
+.content{
+    float: left;
+    background:white;
+    width:79%;
+}
+.nyuszi{
+    background:white;
+}
+.nyuszi::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .footer{
+      text-align: center;
+      color:rgb(255, 255, 255);
+      background:  rgb(245, 159, 0) ;
+      padding-bottom: 50px;
+
+      
+      
+  }
+  .block{
+      padding:0 0 50px 10px; 
+  }
+  .block h3{
+      color:black;
+      font-size: .8rem;
+      margin-top:15px;
+      margin-bottom: 10px;
+      text-align: center;
+      background-color: lightgrey;
+  }
+
+  .block ul{
+      list-style-type: none;
+      
+  }
+  .block ul li a{
+      padding:5px 0 5px 0;
+      text-decoration: none;
+      color:darkgreen;
+      font-size: .8rem;
+      display: inline-block;
+
+  }
+  .block ul li a:hover{
+      color:white;
+  }
+  .content{
+      padding: 10px 100px 10px 10px;
+  }
+  .content p{
+      text-align: justify;
+      line-height: 1.5;
+      color: darkgreen;
+    
+  }
+  .content .news h2{
+      background: rgb(139, 79, 0) ;
+      color:white;
+      padding: 3px 10px;
+      margin:10px 0;
+  }
+  .news{
+      margin-bottom: 50px;
+  }
+  .news p img{
+    float:left;
+    padding: 0 10px 5px 0;
+  }
+
+  .menupont{
+      text-align: center;
+  }
+  
